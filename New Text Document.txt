@@ -1,0 +1,15 @@
+	run.run_animation.animate_left(window)
+	idl.idle_animation.animate_left(window)
+	atk.atk_K1_animation.animate_left(window)
+	atk.atk_K2_animation.animate_left(window)
+	atk.atk_K3_animation.animate_left(window)
+	jump.fall_animation.animate_left(window)
+	jump.jump_animation.animate_left(window)
+
+
+	idl.idle_animation.x = 50
+	atk.atk_K1_animation.x = 100
+	atk.atk_K2_animation.x = 150
+	atk.atk_K3_animation.x = 200
+	jump.fall_animation.x = 250
+	jump.jump_animation.y = 50
